@@ -1,0 +1,27 @@
+{
+  "name": "ai-healthcare-assistant",
+  "version": "1.0.0",
+  "description": "Multimodal, Personalized, RAG-Powered Health Assistance Platform",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev": "npm run dev:backend",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "test": "npm --prefix backend test",
+    "db:migrate": "npm --prefix backend run db:migrate",
+    "db:seed": "npm --prefix backend run db:seed"
+  },
+  "keywords": [
+    "healthcare",
+    "ai",
+    "rag",
+    "multimodal",
+    "medical-assistant",
+    "emergency-triage"
+  ],
+  "author": "Antigravity AI Team",
+  "license": "UNLICENSED"
+}
