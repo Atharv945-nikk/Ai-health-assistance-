@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-09-16T11:03:01.025Z",
+  "projectRoot": "D:\\AI-Projects\\AI Healthcare Assistant",
+  "structure": {
+    "hasPackageJson": false,
+    "hasTsConfig": false,
+    "hasClaudeConfig": true,
+    "hasClaudeFlow": true
+  },
+  "scannedAt": 1789556581026
+}
