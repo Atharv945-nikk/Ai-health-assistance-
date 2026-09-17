@@ -11,17 +11,20 @@
 .claude-flow/sessions/
 .swarm/
 
-# Dependencies
+# Dependencies & Builds
 node_modules/
 dist/
 build/
 coverage/
+backend/dist/
+frontend/dist/
 
 # Databases & local user files
-data/*.db
-data/*.db-shm
-data/*.db-wal
-data/*.sqlite
+data/*.db*
+backend/data/*.db*
+!backend/data/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
 uploads/*
 !uploads/.gitkeep
 
